@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(122, 88, 88); text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #a88686;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div>   
+            <div id="Logo" class="logo">
+                <img src="logo.png" width="200" alt="Logo da Pagina"/>
+            </div>
+            <hr>
+    </header>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Sobre Salames</h2>
+                <ul>
+                    <li><a href="https://pt.wikipedia.org/wiki/Fabrica%C3%A7%C3%A3o_de_embutidos">Fabricação</a></li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Lista_de_embutidos">Outros Imbutidos</a></li>
+                    <li><a href="#Fazer">Faça o seu salame</a></li>
+                </ul>
+            </div>
+
+        <main>   
+                <h1 id="Sobre">Tudo sobre <u>Salames</u></h1> 
+                <p>O salame (em italiano: salame, plural: salami) é um enchido de origem italiana. 
+                    O nome é derivado do verbo italiano salare, que significa salgar.
+                    Historicamente, o salame está associado aos camponeses italianos, 
+                    como um produto de carne que podia ser armazenado a temperatura ambiente, 
+                    por períodos de até um ano, constituindo um suplemento ao fornecimento escasso ou 
+                    inconstante de carne fresca, em épocas mais remotas.</p>
+
+                    <h2 id="ingredientes">Ingredientes</h2>
+                    <figure>
+                        <img src="Salames.jpg" width="250" height="100" alt="Imagem com salames tradicionais">
+                    </figure>
+                    <p>Um salame tradicional, embora existam diversas variedades, 
+                        é feito de uma mistura de ingredientes que pode incluir os seguintes: <br>
+                        Carne de bovino ou de suíno cortada em pedaços, 
+                        as versões industriais podem incluir carne de frango ou corações de bovino,
+                        Vinho, Sal, Ervas aromáticas e especiarias diversas.
+                        A mistura crua fermenta durante um dia, 
+                        para depois ser introduzida numa tripa comestível ou artificial, 
+                        e pendurada para ser curada.</p> 
+                        <a href="#Logo">Voltar</a>
+
+                        <h2 id="Brasil">No Brasil</h2>
+                        <p>O salame é comum em diversas regiões do Brasil, 
+                            podendo ser encontrado uma grande variedade. 
+                            No Paraná o salame cracóvia é um embutido defumado feito com carne suína selecionada, 
+                            geralmente o lombo ou pernil do porco, muito bem temperada com alho, pimenta e sal. 
+                            O embutido surgiu na década de 1960, em Prudentópolis, 
+                            região centro-sul do Paraná, colonizada por eslavos, em sua maioria por descendentes de ucranianos. 
+                            Uma família ucraniana buscava produzir um embutido artesanal que fosse 
+                            diferente das salsichas, mortadelas, salames e linguiças da época.
+                            O salame cracóvia é defumado em alta temperatura, o que o deixa cozido. 
+                            Diferenciando-o do salame tradicional, que é cru, defumado e maturado a frio, 
+                            e da tradicional linguiça, que é embutida e defumada também a frio, mas não maturada.
+                            A iguaria agradou muito os imigrantes poloneses que batizaram com o nome de cracóvia, 
+                            em referência à cidade polonesa Kraków. O seu uso é diversificado, 
+                            mas é comum sendo usado fatiado em sanduíches, 
+                            em entradas e na preparação de molhos, e até no recheio de pizzas e em risotos.</p>
+                            <a href="#Logo">Voltar</a>
+
+                            <h2 id="Portugal">Em Portugal</h2>
+                            <figure>
+                                <img src="Salami_de_chocolate.jpg" width="250" height="100" alt="Imagem com salames tradicionais">
+                            </figure>
+                            <p>Devido ao grande crescimento que os restaurantes italianos têm experimentado nas 
+                                principais cidades de Portugal nos últimos anos,
+                                o consumo deste produto tem se espalhado, mas continua a ser um enchido 
+                                pouco popular no país, embora seja facilmente acessível nos supermercados. 
+                                Em Portugal existem outros enchidos semelhantes, tal como o salsichão ibérico e o 
+                                paio de porco preto do Alentejo. Aliás, também existe um doce chamado «salame», 
+                                que tem a mesma forma mas é feito de chocolate com bolachas Maria trituradas.</p>
+                                <hr>
+                                <a href="#Logo">Voltar ao topo</a>
+        </main>   
+            <div class="anchors">       
+                <h2>Neste Artigo</h2>
+                <ul>
+                    <li><a href="#Sobre">Tudo sobre Salame</a></li>
+                    <li><a href="#ingredientes">Ingredientes</a></li>
+                    <li><a href="#Brasil">No Brasil</a></li>
+                    <li><a href="#Portugal">Em Portugal</a></li>
+                </ul>
+            </div>                      
+    <footer>
+        <h3 id="Fazer">Como fazer na pratica</h3>
+        <iframe width="560" height="315" alt="Video retirado do Youtube, canal do Shoop ensinando como fazer seu proprio salame" src="https://www.youtube.com/embed/a3gGxBSQBXc?si=3W55VvCcz-pzWP-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </footer>
+    
+</body>
+</html>
